@@ -5,14 +5,14 @@ using namespace std;
 #define 	ld 		long double
 
 #define 	nl 		"\n"
-#define     new     cout<<'\n'
-#define 	Yes 	cout<<"Yes"<<nl 
+#define     	new     	cout<<'\n'
+#define 	Yes 		cout<<"Yes"<<nl 
 #define 	No 		cout<<"No"<<nl 
-#define 	YES 	cout<<"YES"<<nl 
+#define 	YES 		cout<<"YES"<<nl 
 #define 	NO 		cout<<"NO"<<nl 
 
 #define 	vi 		vector<int>
-#define 	vll 	vector<ll>
+#define 	vll 		vector<ll>
 #define 	pb 		push_back
 
 #define     FAIYAZ  ios_base::sync_with_stdio(false);cin.tie(NULL);
@@ -49,7 +49,7 @@ int main() {
 	while(n--) {
 		ll x; cin>> x;
 
-    	if(isPerfectSquare(x)) YES;
+    		if(isPerfectSquare(x)) YES;
 		else NO;
 
 	}
